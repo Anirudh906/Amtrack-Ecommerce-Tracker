@@ -6,6 +6,7 @@ require("dotenv").config();
 const app = express();
 const schedule = require("node-schedule");
 const updatePrices = require("./utils/updatePrices");
+const path = require("path");
 
 app.use(
   bodyParser.urlencoded({
