@@ -11,5 +11,5 @@ Track your favourite products on Amazon easily!</br>
 ## Technologies Used
  <ul>
    <li> <strong>Frontend</strong> : ReactJS </li>
-  <li> <strong>Backend</strong> : NodeJS, Puppeteer (sracping tool), MongoDB </li>
+  <li> <strong>Backend</strong> : NodeJS, Puppeteer (scraping tool), MongoDB </li>
  </ul>
