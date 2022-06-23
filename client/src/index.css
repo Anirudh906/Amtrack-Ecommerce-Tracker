@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #89d6f1;
+  --secondary-color: #136bdf;
+}
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar {
+  background-color: var(--primary-color);
+}
+.brand a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:black
+}
+.brand a:hover{
+   color:black
+}
+.marginTop {
+   margin-top: 10px;
+}
+
+.dashboard h2{
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 1000;
+}
+.list {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.addButton {
+  border-radius: 50%;
+  font-size: 40px;
+  width: 70px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.linkToProduct {
+  background-color: var(--primary-color);
+  color: black;
+  border: none;
+}
+
+.cardImage {
+ height: 200px;
+ object-fit: contain;
+}
+.card-height {
+  height: 350px;
+}
+.card-title-height {
+  height: 150px;
+}
+.toast-fixed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+.toast-style {
+  background-color: #89d6f1;
+}
+.graphContainer {
+  width: 60%;
+}
+
+@media (max-width: 900px){
+  .graphContainer{
+    width: 80%;
+  }
+}
+.content-head {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.set-display p {
+  display: inline-block;
+}
+.delete-button {
+  background-color: transparent;
+  border-style: none;
+  color: red;
+}
